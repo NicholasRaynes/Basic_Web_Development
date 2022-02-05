@@ -1,3 +1,2 @@
-# HTML_CSS_Practice
-
-Practice working with HTML and CSS.
+# Web_Development
+Practice working with HTML, CSS, and JavaScript.
