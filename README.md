@@ -1,6 +1,6 @@
 # HTML_CSS_Practice
 
-> Working with HTML tables
+> **Working with HTML tables**
 
 A simple HTML table for my favourite movies, and related data. Styled using CSS.
 
