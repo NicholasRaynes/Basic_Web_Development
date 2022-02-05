@@ -1,0 +1,68 @@
+/*
+
+Name: Nicholas Raynes
+Version: 0.0.1
+Description: The CSS for my favourite movies HTML table webpage.
+
+*/
+
+body 
+{
+	margin:0px;
+	padding:0px;
+	font-family: Helvetica, sans-serif;
+	background-color: #4158D0;
+	background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+	background: linear-gradient(to left top, blue, red) fixed;
+}
+
+.movies-table tbody tr:nth-child(odd){
+	background-color: #DDD;
+}
+
+.movies-table tbody tr:hover
+{
+	background-color: #f5f242;
+}
+
+.movies-table, caption 
+{
+	margin: 50px auto;
+	border-spacing:  5px 5px;
+	color: #000000;
+	border: 4px solid black;
+	border-radius: 15px;
+}
+
+.movies-table
+{
+	border: 2px solid black;
+	background-color: #FFF;
+	width: 75%;
+	padding: 15px;
+}
+
+	.movies-table caption
+	{
+		font-style: italic;
+		width: 35%;
+		padding: 10px;
+		font-weight: bold;
+		font-size: 30px;
+		text-align: center;
+		background-color: #FFF;
+	}
+
+thead
+{
+	font-weight: bold;
+	background-color: #959595;
+}
+
+tbody
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+
