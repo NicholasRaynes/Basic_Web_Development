@@ -1,3 +1,13 @@
+/*
+
+Name: Nicholas Raynes
+Version: 0.0.1
+Description: The CSS for a naviagtion bar that uses
+media queries and flexbox to adapt its design based on
+whether the webpage is being viewed on a monitor, or mobile device.
+
+*/
+
 body 
 {
 	background-image: linear-gradient(to right, white , blue);
