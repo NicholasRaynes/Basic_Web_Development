@@ -3,7 +3,7 @@
 This navigation bar adapts to different resolutions of the display
 it is being viewed on, by changing the design of the bar. 
 
-This is accomplished by utilizing media queries and flexbox properties.
+This is accomplished by utilizing media queries and Flexbox properties.
 
 Design on a PC/Monitor display:
 
