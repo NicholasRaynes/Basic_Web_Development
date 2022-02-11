@@ -1,0 +1,125 @@
+/*
+
+Name: Nicholas Raynes
+Version: 0.0.1
+Description: The HTML for my survey form example webpage
+that demonstrates my understanding of creating HTML Forms, 
+and using various Form properties.
+
+*/
+
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body 
+{
+	background-color: lightgrey;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+form#survey-form
+{
+	background: #add3ff;
+	padding: 20px;
+	width: 400px;
+	margin: 0px auto;
+	border-style: solid ;
+	border-radius: 15px;
+}
+
+form#survey-form fieldset
+{
+	border:0px;
+	margin-bottom:20px;
+}
+
+form#survey-form fieldset:last-of-type
+{
+	margin-bottom:0px;
+}
+
+form#survey-form legend
+{
+	color:#384313;
+	font-size:16px;
+	font-weight:bold;
+	padding-bottom:10px;
+}
+
+form#survey-form fieldset fieldset legend
+{
+	color: black;
+	font-size: 13px;
+	padding-bottom: 0px;
+}
+
+form#survey-form fieldset li label
+{
+	font-weight: bold;
+}
+
+form#survey-form ol li
+{
+	background:#FFF;
+	border:2px solid;
+	border-radius:5px;
+	line-height:23px;
+	list-style:none;
+	padding:5px 10px;
+	margin-bottom:4px;
+}
+
+form#survey-form ol ol li
+{
+	background:none;
+	border:none;
+	float:left;
+}
+
+form#survey-form label
+{
+	float:left;
+	font-size:13px;
+	width:110px;
+}
+
+form#survey-form fieldset fieldset 
+{
+	line-height:20px;
+	padding:0px 0px 0px 30px;
+	width:auto;
+}
+
+form#survey-form input:not([type='radio'])
+{
+	background: #fffeba;
+	border:none;
+	border-radius:3px;
+	padding: 5px;
+	margin-left: 60px;
+	width: 180px;
+}
+
+form#survey-form input[type='radio'] 
+{
+	margin-right: 5px;
+}
+
+form#survey-form button 
+{
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 20px;
+	background: #6fe875;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: black;
+	color: white;
+	display: block;
+	letter-spacing: 3px;
+	margin: auto;
+	padding: 7px 25px;
+}
