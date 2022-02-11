@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+	<form id="survey-form">
+		<fieldset>
+			<legend>Contact Information:</legend>
+			<ol>
+				<li>
+					<label for="name">Name:</label>
+					<input id="name" type="text" autofocus/>
+				</li>
+				<li>
+					<label for="email">Email:</label>
+					<input id = "email" type="email"/>
+				</li>
+				<li>
+					<label for="phone">Phone:</label>
+					<input id="phone" type="tel"/>
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<legend>Survey Questions:</legend>
+			<ol>
+				<li>
+					<fieldset>
+						<legend>How did you come across this survey?</legend>
+						<ol>
+							<li>
+								<input type="radio"/>
+								<label>Social media</label>
+							</li>
+							<li>
+								<input type="radio"/>
+								<label>Advertisement</label>
+							</li>
+							<li>
+								<input type="radio"/>
+								<label>Other</label>
+							</li>
+						</ol>
+					</fieldset>
+				</li>
+				<li>
+					<label for="age">Your age?</label>
+					<input id="age" type="number"/>
+				</li>
+				<li>
+					<label for="pet">Favourite Pet?</label>
+					<input id="pet" type="text"/>
+				</li>
+				<li>
+					<label for="colour">Favourite Food?</label>
+					<input id="colour" type="text"/>
+				</li>
+				<li>
+					<label for="comments">Additional Comments:</label>
+					<textarea id="comments" rows="5"></textarea>
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<button type="submit">Submit</button>
+		</fieldset>
+	</form>
+</body>
+</html>
