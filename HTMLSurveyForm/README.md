@@ -1,6 +1,6 @@
 # HTML Survey Form Webpage
 
-This is a survey form I have made that demonstrates my understanding of creating HTML forms,
+This is a survey form I have made that demonstrates my understanding in creating HTML forms,
 and using HTML Form properties. Used various different HTML Form elements, including multiple
 input types (text, number, radio). 
 
