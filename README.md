@@ -5,3 +5,5 @@
 - HTML5
 - CSS
 - JavaScript
+- PHP
+- React.js
